@@ -1,0 +1,79 @@
+Mime-Version: 1.0
+Date: Wed, 28 Sep 2022 07:12:15 -0500
+To: "John Prospect" <john@prospects.example.com>
+From: Recruit, Inc. <root@example.com>
+Subject: Recruitment Example
+Cc: "Alice Recruiter" <alice@recruiter.example.com>
+Reply-To: "Alice Recruiter" <alice@recruiter.example.com>
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3D">
+</head>
+
+<body>
+    <p>Sep 28 2022</p>
+    <p>John Prospect</p>
+    <p>Prospects, Inc.<br>
+    </p>
+    <p><br>
+    </p>
+    <p>Dear Sir/Madam Prospect,</p>
+    <p><br>
+    </p>
+    <p>My name is Alice Recruiter.</p>
+    <p>PLEEEEASE help us make example.org better! You can reach me by reply=
+ing to this email.<br>
+    </p>
+    <div class=3D"moz-signature">Example Organization<br>
+        -- <br>
+        <strong>Alice Recruiter</strong>, example.org |=C2=A0alice@recruite=
+r.example.com<br>
+    </div>
+</body>
+
+</html>Mime-Version: 1.0
+Date: Wed, 28 Sep 2022 07:12:15 -0500
+Cc: "Bob Recruiter" <bob@recruiter.example.com>
+Reply-To: "Bob Recruiter" <bob@recruiter.example.com>
+To: "Jane Beavers" <jane@prospects.example.com>
+From: Recruit, Inc. <root@example.com>
+Subject: Recruitment Example
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3D">
+</head>
+
+<body>
+    <p>Sep 28 2022</p>
+    <p>Jane Beavers</p>
+    <p>Beavers, Inc.<br>
+    </p>
+    <p><br>
+    </p>
+    <p>Dear Sir/Madam Beavers,</p>
+    <p><br>
+    </p>
+    <p>My name is Bob Recruiter, and I am the CEO of example.com!</p>
+    <p>PLEEEEASE help us make example.org better! You can reach me by reply=
+ing to this email.<br>
+    </p>
+    <div class=3D"moz-signature">Example Organization<br>
+        -- <br>
+        <strong>Bob Recruiter</strong>, example.org |=C2=A0bob@recruiter.ex=
+ample.com<br>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+{{define "meta"}}
+{{ set_header .Message "Subject" "Recruitment Example" }}
+{{ set_address_header .Message "Cc" .Recruiter.Email .Recruiter.Name }}
+{{ set_address_header .Message "Reply-To" .Recruiter.Email .Recruiter.Name }}
+{{end}}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=">
+</head>
+
+<body>
+    <p>{{ date "Jan 02 2006" }}</p>
+    <p>{{ .Prospect.Name }}</p>
+    <p>{{ .Prospect.Organization }}<br>
+    </p>
+    <p><br>
+    </p>
+    <p>Dear Sir/Madam {{ last_name .Prospect.Name }},</p>
+    <p><br>
+    </p>
+    <p>My name is {{ .Recruiter.Name }}{{ if ne .Recruiter.Personality ""}}, and {{ .Recruiter.Personality }}{{ else
+        }}.{{end}}</p>
+    <p>PLEEEEASE help us make example.org better! You can reach me by replying to this email.<br>
+    </p>
+    <div class="moz-signature">Example Organization<br>
+        -- <br>
+        <strong>{{ .Recruiter.Name }}</strong>, example.org | {{ .Recruiter.Email }}<br>
+    </div>
+</body>
+
+</html>

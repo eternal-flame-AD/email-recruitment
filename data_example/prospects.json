@@ -1,0 +1,16 @@
+[
+	{
+		"name": "John Prospect",
+		"email": "john@prospects.example.com",
+		"organization": "Prospects, Inc.",
+		"assigned_recruiter": "alice",
+		"already_sent": false
+	},
+	{
+		"name": "Jane Beavers",
+		"email": "jane@prospects.example.com",
+		"organization": "Beavers, Inc.",
+		"assigned_recruiter": "bob",
+		"already_sent": false
+	}
+]

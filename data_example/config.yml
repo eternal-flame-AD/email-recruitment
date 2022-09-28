@@ -1,0 +1,14 @@
+recruiter:
+  alice:
+    name: "Alice Recruiter"
+    email: "alice@recruiter.example.com"
+  bob:
+    name: "Bob Recruiter"
+    email: "bob@recruiter.example.com"
+    personality: "I am the CEO of example.com!"
+smtp:
+  from: "Recruit, Inc. <root@example.com>"
+  host: "smtp.example.com"
+  port: 587
+  username: "root@example.com"
+  password: "xxxxxx"
